@@ -38,7 +38,10 @@ events { }
    
    in the above Script 10.0.0.143 and 10.0.0.145 is IPs of the two servers
  3-On server Sides go to the following path and edit the index.html with content server1 for Server 1 and Server2 for server 2
-    ```bash
+  
    cd /var/www/html
-   ```
+  
+   
  On client VM open the Web Browser and type the VM ip address and you will see loadbalancing between the 2 machines 
+![888](https://user-images.githubusercontent.com/75560486/110319717-f2bce180-8017-11eb-9663-c0dd0cf2ef57.PNG)
+![999](https://user-images.githubusercontent.com/75560486/110319743-fc464980-8017-11eb-9b1a-3119adb43799.PNG)
